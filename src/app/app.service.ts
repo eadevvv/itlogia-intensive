@@ -21,6 +21,6 @@ export class AppService {
   }
 
   getProductsData(): Observable<any> {
-    return this.http.get('https://testologia.site/burgers-data');
+    return this.http.get('https://testologia.site/burgers-data?extra=black');
   }
 }
